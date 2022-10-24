@@ -13,9 +13,9 @@ body,html{
   height:600px;
   margin: auto;
   text-align:center;
-  border: 10px solid black;
+  border: none;
   border-radius: 42px;
-  box-shadow: 5px 5px 12px #dadada, -5px -5px 12px #fff;
+  box-shadow: -13px -13px 26px #dadada, 13px 13px 26px #fff, -12px -12px 24px #dadada inset, -12px -12px 24px #fff inset;
 }
 #calculator #time{
   position: absolute;
@@ -97,12 +97,12 @@ input.black:hover{
   transition: .4s;
 }
 input:not(.black):not(#screen){
-  background-color: #fbfbfb;
+  background-color: #fff;
   color: #000;
   box-shadow: 5px 5px 12px #dadada, -5px -5px 12px #fff;
 }
 input:not(.black):not(#screen):hover{
-  background-color: #333;
+  background-color: #ddd;
   color: #000;
   transition: .4s;
 }
